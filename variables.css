@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+:root {
+	--background: #121212;
+	--surface: #1d1d1d;
+	--primary: #bb86fc;
+	--primary-obf: #bb86fcc4;
+	--secondary: #03dac6;
+	--secondary-obf: #069486;
+	--onBackground: #e4e4e4;
+	--onSurface: #e7e7e7;
+	--onPrimary: #17101d;
+	--onSecondary: #000c0a;
+
+	--glassySurface: #1d1d1dde;
+
+	--font: "Roboto", sans-serif;
+	--size-1: 35;
+
+	--top-bar-height: 100px;
+
+	--obf-gradient: 145deg, rgba(187, 134, 252, 0.45) 9%,
+		rgba(29, 29, 29, 0.4) 42%;
+
+	font-family: "Roboto", sans-serif;
+}

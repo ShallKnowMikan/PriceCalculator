@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mikan's price calculator</title>
+		<link rel="stylesheet" href="normalize.css" />
+		<link rel="stylesheet" href="variables.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav id="navbar">
+			<img src="./imgs/logo.png" alt="" />
+			<h1>Price calculator</h1>
+		</nav>
+		<main>
+			<article class="box">
+				<div class="time">
+					<div class="param">
+						<label for="hours">hours</label>
+						<input
+							type="text"
+							id="hours"
+							placeholder="0"
+							value="0"
+							inputmode="decimal"
+							pattern="[0-9]+(\.[0-9]*)?"
+						/>
+					</div>
+					<div class="param">
+						<label for="min">minutes</label>
+						<input
+							type="text"
+							id="min"
+							placeholder="0"
+							value="0"
+							inputmode="decimal"
+							pattern="[0-9]+(\.[0-9]*)?"
+						/>
+					</div>
+				</div>
+				<div class="param">
+					<label for="euros">Euros per hour</label>
+					<input
+						type="text"
+						id="euros"
+						placeholder="€12"
+						value="€12"
+						inputmode="decimal"
+						pattern="[0-9]+(\.[0-9]*)?"
+					/>
+				</div>
+				<h3>
+					price:
+					<span id="output"></span>
+				</h3>
+			</article>
+		</main>
+		<script src="./input.js"></script>
+	</body>
+</html>
